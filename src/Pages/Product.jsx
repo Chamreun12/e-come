@@ -19,6 +19,11 @@ function Product() {
 
   return (
    <>
+   <div className='text-center p-15'>
+    <h1 className='text-3xl font-bold'>
+      All Products 
+    </h1>
+   </div>
 
 
 

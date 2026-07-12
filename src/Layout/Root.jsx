@@ -90,9 +90,18 @@ function Root() {
       <Outlet  />
     </div>
 
-      <div className="bg-black p-5 text-center text-white">
-        Copyright © 2023 - MasterIT Store
+    {/* footer  */}
+    <div className="bg-black py-7 flex justify-around mt-20 text-white">
+      <div >
+        Copyright &copy; 2023 - MasterIT Store
       </div>
+      <nav className="flex gap-x-5">
+        <Link to="/">Home</Link> 
+        <Link to="/contact">Contact Us</Link> 
+        <Link to="/about">About Us</Link> 
+        <Link to="/product"> Term and Conditional</Link> 
+      </nav>
+    </div>
     </>
   );
 }
