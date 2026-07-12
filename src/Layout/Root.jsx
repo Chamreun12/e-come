@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink, Outlet, useNavigate } from "react-router";
 //Icon 
-import { IoMenu } from "react-icons/io5";
 import { FaUser, FaRegHeart  } from "react-icons/fa";
 import { LuUser,LuShoppingBag, LuMenu} from "react-icons/lu";
 import { IoIosClose } from "react-icons/io";
