@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink, Outlet, useNavigate } from "react-router";
 //Icon 
-import { FaUser, FaRegHeart  } from "react-icons/fa";
+import { FaRegHeart  } from "react-icons/fa";
 import { LuUser,LuShoppingBag, LuMenu} from "react-icons/lu";
 import { IoIosClose } from "react-icons/io";
 import { HiOutlineHome } from "react-icons/hi";
