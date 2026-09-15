@@ -23,8 +23,8 @@ const [product, setProduct] = useState([])
       {/* Home */}
       <div className="bg-amber-200 h-300 max-h-screen  flex justify-center items-center ">
         <div className="flex flex-col text-center ">
-          <h3 className="text-2xl font-bold ">New Collection </h3>
-          <h1 className="text-4xl font-bold p-3">Luxary Without Labels</h1>
+          <h3 className="text-4xl font-bold ">New Collection </h3>
+          <h1 className="text-6xl font-bold p-3">Luxary Without Labels</h1>
           <p>Explore new-in product and best sellers</p>
           <div className="pt-3">
             <button className="bg-gray-950 text-white p-2 px-8 rounded-xl hover:bg-gray-700 transition-all">
